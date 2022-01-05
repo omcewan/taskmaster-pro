@@ -88,7 +88,7 @@ $(".list-group").on("click", "span", function () {
 
   // enable jquery ui datepicker
   dateInput.datepicker({
-    miniDate: 1,
+    minDate: 1,
     onClose: function() {
       // when calender is closed, force a "change" event on the 'dateInput'
       $(this).trigger("change");
